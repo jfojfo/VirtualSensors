@@ -1,6 +1,7 @@
 VirtualSensors
 ==============
 SdkController
+==============
 Picked from android source code,
 see android_src/sdk/apps/SdkController
 
@@ -18,4 +19,5 @@ emulator's API level is 17 (android-4.2.2)
 
 
 SensorsTest
+==============
 An app shows sensors' values
