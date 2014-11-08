@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+         android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+            
+        </LinearLayout>
+    </ScrollView>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <Button
+        android:id="@+id/Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lightclick"
+        android:text="Light" />
+
+    <Button
+        android:id="@+id/Orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="orientationclick"
+        android:text="orientation" />
+
+    <Button
+        android:id="@+id/Proximity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="proximityclick"
+        android:text="proximity" />
+     <Button
+        android:id="@+id/Magnetic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="magneticclick"
+        android:text="magnetic" />
+      <Button
+        android:id="@+id/Accelero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="acceleroclick"
+        android:text="accelero" />
+       <Button
+        android:id="@+id/Gyroscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gyroscopeclick"
+        android:text="gyroscope" />
+         <Button
+        android:id="@+id/Temper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="temperclick"
+        android:text="temper" />
+          <Button
+        android:id="@+id/Lineracc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="lineraccclick"
+        android:text="lineracc" />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
