@@ -12,6 +12,8 @@ adb forward tcp:1970 localabstract:android.sdk.controller
 then start SdkController app on your phone
 and start your android emulator on PC
 
+emulator -avd your_avd -debug sensors_port,mtport,sdkctlsocket -screen multi-touch
+
 
 Runs successfully on Xiaomi3 phone (android-4.4.4)
 emulator's API level is 17 (android-4.2.2)
