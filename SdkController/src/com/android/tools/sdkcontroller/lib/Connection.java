@@ -218,7 +218,13 @@ public class Connection {
         Log.e("jfo", "getChannel:" + name);
         for (Channel channel : mChannels) {
             Log.e("jfo", "channel:" + channel.getChannelName());
-            if (channel.getChannelName().equals(name)) {
+//            if (channel.getChannelName().equals(name)) {
+//                return channel;
+//            }
+            if (channel.getChannelName().matches(".*sen.*") && name.matches(".*sen.*")) {
+                return channel;
+            }
+            if (channel.getChannelName().matches(".*multi.*") && name.matches(".*multi.*")) {
                 return channel;
             }
         }

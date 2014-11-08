@@ -12,6 +12,9 @@ then start SdkController app on your phone
 and start your android emulator on PC
 
 
+Runs successfully on Xiaomi3 phone (android-4.4.4)
+emulator's API level is 17 (android-4.2.2)
+
 
 
 SensorsTest
