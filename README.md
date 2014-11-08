@@ -1,5 +1,7 @@
 VirtualSensors
 ==============
+emulator will get virtual sensor's data from your phone device
+
 SdkController
 ==============
 Picked from android source code,
@@ -23,3 +25,4 @@ emulator's API level is 17 (android-4.2.2)
 SensorsTest
 ==============
 An app shows sensors' values
+just install the app on emulator to see its virtual sensors' data
