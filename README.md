@@ -36,3 +36,10 @@ virtual sensors in HAL of Android.
 Compiled with cubieboard2 Android source code,
 path: android_src/development/tools/emulator/system/virtual_sensors
 
+
+virtual_sensors_client
+==============
+send random data to virtual_sensors
+
+It's android jni project
+
