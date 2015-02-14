@@ -26,3 +26,13 @@ SensorsTest
 ==============
 An app shows sensors' values
 just install the app on emulator to see its virtual sensors' data
+
+
+
+virtual_sensors
+==============
+virtual sensors in HAL of Android.
+
+Compiled with cubieboard2 Android source code,
+path: android_src/development/tools/emulator/system/virtual_sensors
+
